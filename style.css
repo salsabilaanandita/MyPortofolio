@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+/* header */
+
+header{
+    background-color: #F5EEE6;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar i{
+    padding: 1.7rem 1rem;
+    font-size: 20px;
+}
+.navbar h1{
+    color: #F6D776;
+    padding: 1rem 0;
+    font-size: 2rem;
+    span{
+        color: #80BCBD;
+        padding: 1.5rem 0;
+    }
+}
+body{
+    height: 1000px;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    padding: 1.5rem 2.5rem;
+}
+li a{
+    color: #6895D2;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* end header */
+
+/* home */
+
+.home{
+    background-color: #FBF9F1;
+    height: 100vh;
+}
+.content-home h2{
+    text-align: center;
+    color: #43766C;
+    font-family: 'Satisfy';
+    font-size: 2rem;
+    width: 600px;
+    margin-left: -150px;
+    span{
+        font-size: 2.5rem;
+        color: #B19470;
+        margin-left: -10px;
+    }
+}
+.content-home{
+    margin: 0 auto;
+    padding: 13rem 600px;
+}
+.content-home img{
+    border-radius: 100%;
+}
+
+/* end home */
+
+/* massage */
+.massage{
+    background-color: #80BCBD;
+    height: 40vh;
+}
+.massage h3{
+    margin-left: 45rem;
+    padding: 10px 0;
+    font-size: 2rem;
+    color: #43766C;
+}
+.text h2,p{
+    width: 600px;
+    margin-left: -45rem;
+    text-align: center;
+    margin-top: -30px;
+    font-size: 3rem;
+    font-family: 'Mynerve', cursive;
+    color: #F6D776;
+}
+.container-massage {
+    width:300px;
+    margin: 0 60rem;
+    margin-top: 50px;
+    display: flex;
+}
+input[type=text]{
+    width: 100%;
+    margin: 8px 0;
+    background-color: #F6D776;
+    padding: 12px 20px;
+    border: 1px solid #F6D776;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #43766C;
+    border-radius: 10px;
+    color: white;
+    padding: 7px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* end massage*/
+
+/* about */
+
+.content-about{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FBF9F1;
+    padding: 10rem 0;
+}
+.content-about img{
+    border-radius: 30px 0;
+}
+.text-bout h1{
+    margin-top: -40px;
+    line-height: 0.9;
+    font-family: 'Satisfy';
+    font-size: 35px;
+    margin-left: 30rem;
+    color: #80BCBD;
+    span{
+        font-size: 50px;
+        font-family: 'Mynerve', cursive;
+    }
+}
+.text-bout p{
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 200px;
+    margin-top: 2rem;
+    line-height: 1.9;
+    width: 700px;
+    color: black;
+    font-family: 'Poppins';
+}
+
+.text-bout button {
+    background-color: #43766C;
+    border-radius: 10px;
+    color: white;
+    padding: 12px 20px;
+    margin: 2rem 13rem;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* end about */
+
+/* study */
+.study{
+    background-color: #F5EEE6;
+}
+.card-1 {
+    width: 300px;
+    border-radius: 10px;
+    background-color:  #ffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    margin: 10rem 3rem;
+}
+.card-2 {
+    width: 300px;
+    border-radius: 10px;
+    background-color:  #ffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    margin: 10rem 3rem;
+}
+.card-3 {
+    width: 300px;
+    border-radius: 10px;
+    background-color: #ffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    margin: 10rem 3rem;
+}
+.study-card{
+    display: flex;
+    justify-content: center;
+}
+.header-card{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 20px;
+}
+.card-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-title {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    span{
+        font-size: 15px;
+    }
+}
+
+
+/* end study */
+
+/* location */
+#location{
+    background-color: #80BCBD;
+    height: 100vh;
+}
+.text-loc h1{
+    text-align: center;
+    font-size: 30px;
+}
+.content-location{
+    margin: 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+.login-form {
+    width: 400px;
+    margin: 10rem auto;
+}
+
+.login-form h2 {
+    text-align: center;
+    color: #4C4C4C;
+    padding-top: 20px;
+    margin-right: -60px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 120%;
+    height: 50px;
+    padding: 10px;
+    margin: 10px -5px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: 1px solid #8C8C8C;
+}
+
+.login-form input[type="submit"] {
+    width: 200px;
+    padding: 10px;
+    margin: 10px 130px;
+    border-radius: 15px;
+    background-color: #4C4C4C;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
